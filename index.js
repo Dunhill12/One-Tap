@@ -32,7 +32,7 @@ fs.readdir("./commands/", (err, files) => {
 
 client.on("error", console.error);
 client.on("warn", console.warn);
-//client.on("debug", console.debug);
+
 
 
 
