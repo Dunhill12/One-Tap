@@ -6,7 +6,7 @@ exports.run = async (client, message, args) => {
     const user = message.author;
     var randomColor = Math.floor(Math.random()*16777215).toString(16);
     const embed = new Discord.MessageEmbed()
-    .setAuthor(':<:789683462625296404:822976680989032510> ・HELP', user.avatarURL({ format: 'gif'}))
+    .setAuthor('・HELP', user.avatarURL({ format: 'gif'}))
     .setDescription("Systeme des rooms tempo ! Notre prefix est : v!")
     .setColor(randomColor)
     .addField("`v!permit`", `Give a user access to join the channel`)
